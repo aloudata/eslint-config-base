@@ -1,0 +1,32 @@
+{
+  "name": "@aloudata/eslint-config-base",
+  "version": "0.0.1",
+  "description": "common eslint config for aloudata",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aloudata/eslint-config-base.git"
+  },
+  "keywords": [
+    "eslint",
+    "aloudata"
+  ],
+  "author": "yuanfeng.liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aloudata/eslint-config-base/issues"
+  },
+  "homepage": "https://github.com/aloudata/eslint-config-base#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
