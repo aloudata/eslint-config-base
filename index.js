@@ -24,5 +24,8 @@ module.exports = {
     'object-curly-newline': 'off',
     '@typescript-eslint/no-explicit-any': ['error'],
     'react-hooks/exhaustive-deps': 'error',
+    'no-console': ['warn', { allow: ['error'] }],
+    'no-magic-numbers': ['error'],
+    'arrow-parens': 'off'
   },
 };
