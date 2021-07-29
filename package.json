@@ -1,6 +1,6 @@
 {
   "name": "@aloudata/eslint-config-base",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "common eslint config for aloudata",
   "main": "index.js",
   "scripts": {
