@@ -26,6 +26,12 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'error',
     'no-console': ['warn', { allow: ['error'] }],
     'no-magic-numbers': ['error', { ignore: [1] }], // 忽略数组 length - 1 取最后一位这样的情况
-    'arrow-parens': 'off'
+    'arrow-parens': 'off',
+    'react/require-default-props': 'off',
+    'linebreak-style': 'off',
+    'curly': ['error', 'all'],
+    'import/extensions': 'off',
+    '@typescript-eslint/type-annotation-spacing': ['error', { after: true }],
+    '@typescript-eslint/no-unsafe-member-access': ['error']
   },
 };
