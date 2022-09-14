@@ -25,7 +25,7 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': ['error'],
     'react-hooks/exhaustive-deps': 'error',
     'no-console': ['warn', { allow: ['error'] }],
-    'no-magic-numbers': ['error', { ignore: [1] }], // 忽略数组 length - 1 取最后一位这样的情况
+    'no-magic-numbers': ['error', { ignore: [0, 1] }], // 忽略数组 length - 1 取最后一位这样的情况
     'arrow-parens': 'off',
     'react/require-default-props': 'off',
     'linebreak-style': 'off',
